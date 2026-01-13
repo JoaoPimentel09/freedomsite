@@ -24,7 +24,6 @@ Olá! Gostaria de mais informações.
 Nome: ${nome}
 Telefone: ${telefone}
 Compra para CNPJ: ${cnpj}
-Formulário: ${formulario}
 `
 
     const whatsappUrl = `https://wa.me/${telefoneEmpresa}?text=${encodeURIComponent(mensagem)}`
