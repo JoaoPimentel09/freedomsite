@@ -87,15 +87,20 @@ export function ContactForm({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen:
         throw new Error(result.error || "Erro ao enviar formulário")
       }
 
-      // Sucesso no envio
-      setSubmitSuccess(true)
+      // Sucesso no envio → redirecionar para WhatsApp
+      if (result.whatsapp) {
+        window.location.href = result.whatsapp
+        return
+      }
 
-      // Resetar o formulário e fechar o diálogo após 1.5 segundos
+      // Fallback (caso não venha o link)
+      setSubmitSuccess(true)
       setTimeout(() => {
         setFormData({ name: "", phone: "", isCnpj: "" })
         setIsOpen(false)
         setSubmitSuccess(false)
       }, 1500)
+
     } catch (error) {
       console.error("Erro ao enviar formulário:", error)
       setSubmitError("Ocorreu um erro ao enviar o formulário. Por favor, tente novamente.")
