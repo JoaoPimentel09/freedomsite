@@ -165,16 +165,10 @@ export default function Home() {
                 <AccordionContent>Descontos são progressivos conforme a quantidade orçada</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
-                <AccordionTrigger>A distribuidora fica em São Paulo?</AccordionTrigger>
-                <AccordionContent>
-                  Sim, possuímos filial em Guarulhos/SP porém os pedidos são despachados por Curitiba.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-4">
                 <AccordionTrigger>Tem quantidade mínima para compra?</AccordionTrigger>
                 <AccordionContent>Não, desde que tenha CNPJ você pode comprar qualquer quantidade</AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-5">
+              <AccordionItem value="item-4">
                 <AccordionTrigger>Quem fará a Entrega?</AccordionTrigger>
                 <AccordionContent>
                   Por trás deste produto está uma empresa com mais de 10 anos de experiência no mercado, especializada
@@ -210,7 +204,7 @@ export default function Home() {
               (041) 99822-0358
             </a>
           </div>
-          <p className="mt-4 text-gray-400">Guarulhos - São Paulo</p>
+          <p className="mt-4 text-gray-400">Curitiba - Paraná</p>
         </div>
       </footer>
 
