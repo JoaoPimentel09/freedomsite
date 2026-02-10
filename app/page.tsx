@@ -45,7 +45,7 @@ export default function Home() {
             <div className="text-center md:text-left">
               <h2 className="text-lg md:text-3xl font-bold text-white">DISTRIBUIDORA DE</h2>
               <h1 className="text-xl md:text-4xl font-bold text-red-600">BATERIAS FREEDOM</h1>
-              <h2 className="text-lg md:text-3xl font-bold text-white">COM MENOR PREÇO EM SÃO PAULO</h2>
+              <h2 className="text-lg md:text-3xl font-bold text-white">COM MENOR PREÇO NO BRASIL</h2>
             </div>
             <div className="bg-red-600 py-1 md:py-2 px-3 md:px-4 inline-block">
               <h3 className="text-sm md:text-xl font-semibold text-white">AUMENTE OS LUCROS DE SUA EMPRESA</h3>
