@@ -201,7 +201,7 @@ export default function Home() {
             <p className="font-semibold">Central de vendas:</p>
             <a href="tel:041987475290" className="flex items-center justify-center gap-2 mt-2">
               <WhatsAppIcon className="h-5 w-5" />
-              (041) 99822-0358
+              (041) 98747-5290
             </a>
           </div>
           <p className="mt-4 text-gray-400">Curitiba - Paraná</p>
