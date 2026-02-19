@@ -10,7 +10,7 @@ export default function WhatsAppRedirect() {
 
   // Atualizar o link do WhatsApp com o novo texto especificado
   const whatsappLink =
-    "https://wa.me/5541998220358?text=Tenho%20CNPJ%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20Baterias%20Freedom%0A(Contato%20via%20site)%20"
+    "https://wa.me/5541987475290?text=Tenho%20CNPJ%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20Baterias%20Freedom%0A(Contato%20via%20site)%20"
 
   useEffect(() => {
     // Iniciar contagem regressiva
