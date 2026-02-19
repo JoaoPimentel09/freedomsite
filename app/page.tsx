@@ -199,7 +199,7 @@ export default function Home() {
           <p className="text-gray-400">CNPJ: 00.338.610/0002-80</p>
           <div className="mt-4">
             <p className="font-semibold">Central de vendas:</p>
-            <a href="tel:041998220358" className="flex items-center justify-center gap-2 mt-2">
+            <a href="tel:041987475290" className="flex items-center justify-center gap-2 mt-2">
               <WhatsAppIcon className="h-5 w-5" />
               (041) 99822-0358
             </a>
